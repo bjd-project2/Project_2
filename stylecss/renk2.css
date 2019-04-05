@@ -1,0 +1,206 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background-image: linear-gradient(to right, #EEE8AA ,#9ACD32 );
+  padding: 0px !important;
+}
+
+.navbar-brand img {
+  height: 65px;
+  padding-left: 25px;
+}
+
+.navbar-nav{
+  padding-right: 15px;
+}
+.navbar-nav li{
+  padding: 0 10 px;
+  padding-left: 10px;
+}
+
+.navbar-nav li a{
+    color: 		#800000 !important;
+    font-weight: 550;
+    float: right;
+    text-align: left;
+}
+
+.fa-paw{
+  font-size: 30px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+
+/* Banner */
+#banner{
+  background-image: linear-gradient(to right, #83DFAB, #ADD8E6);
+  color: 	#FFF0F5;
+  padding-top: 5%;
+}
+
+.promo-title{
+  font-size:40px;
+  font-weight:500;
+  margin-top:75px;
+  color:#9299B3;
+}
+
+.search-button{
+  width: 60px;
+  margin: 25px;
+}
+
+#banner a{
+  color: #877575;
+  text-decoration: none;
+}
+
+.img-fluid{
+  height: 300px;
+  width: 600px;
+}
+.text-center{
+  padding-right: 0px;
+}
+
+/* charts section */
+
+#work{
+  padding: 100px 0;
+}
+
+.ok-img{
+  width:100px;
+  margin-top: 20px;
+}
+
+.work{
+  padding: 20px;
+}
+
+.work h4{
+  padding: 5px;
+  margin-top: 40px;
+  text-transform: capitalize;
+}
+
+.title::before
+{
+  content: '';
+  background: #877575;
+  height: 4px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after
+{
+  content: '';
+  background: #877575;
+  height: 8px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+#work .btn-primary{
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #83DFAB, #ADD8E6);
+}
+
+/* about us section */
+#about-us{
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about-title
+{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10%;
+}
+
+#about-us ul li{
+  margin: 15px 0;
+}
+
+#about-us ul{
+  margin-left: 20px;
+}
+/* TEAM MEMBERS */
+
+#team-members{
+  background: #f0ffff;
+  margin: 90px 0;
+}
+
+.team-members{
+  border-left: 4px solid #ADD8E6;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.team-members img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.member-title{
+  display: inline-block;
+  font-size: 14px;
+}
+
+
+/* charts section */
+#charts{
+  background: #cefdce;
+  padding: 100px 0;
+}
+
+#charts p{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#maps {
+  padding: 100px 0;
+}
+
+#maps p{
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+/* footer */

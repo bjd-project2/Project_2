@@ -1,15 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Hair Metal Conclusion</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-	</head>
-	<body>
-		<div class="chart">
-		</div>
-		<script type="text/javascript" src="app.js"></script>
-  </body>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+
+    <title>Species in U.S National Parks MAP</title>
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" >
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+                  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+                  crossorigin=""></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+
+
+
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="stylecss/renk2.css">
+    <!-- cdn icons -->
+    <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section id = "nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src="images/world.png" </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <i class="fa fa-paw"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#work">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#team-members">Our Team</a>
+      </li>
+      <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="chart.html">Chart - 1</a></li>
+            <li><a href="chart1.html">Chart - 2</a></li>
+            <li><a href="charts2.html">Chart - 3</a></li>
+            <li><a href="chart3.html">Chart - 4</a></li>
+          </ul>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#charts">Charts</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="#maps">Map</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    </section>
+
+    <!-- Banner -->
+
+    <section id="banner">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+        <p class="promo-title"> SPECIES IN NATIONAL PARKS PROJECT </p>
+        <p>The status of the species across the North American National Parks. We analyzed the data, created maps and charts that show us the density of endangered and rare species in each park.</p>
+        <a href="#"><img src="images/search.png" class="search-button"> Search for Maps</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/nat-hand.png" class="img-fluid">
+      </div>
+      </div>
+
+    </section>
+<!-- work Section -->
+<section id="work">
+<div class="container text-center">
+<h1 class="title">OUR SERVICES</h1>
+<div class="row text-center">
+  <div class="col-md-4" work>
+    <img src="images/ok.png" class ="ok-img">
+    <h4> Charts of Species </h4>
+    <p>   We created charts that show number of mammals, reptiles and spider-scorpion species in each park,
+       you can see the name of the parks by howering your mouse over each point.</p>
+
+</div>
+<div class="col-md-4" work>
+  <img src="images/logo-map.png" class ="ok-img">
+  <h4> Species Mapping </h4>
+  <p>   With our static map, you can look for the national parks that have the greatest number of rare species and
+    the national parks that needs to be protected due to endangered species.</p>
+
+</div>
+<div class="col-md-4" work>
+  <img src="images/excel.png" class ="ok-img">
+  <h4> Data Tables </h4>
+  <p>   You can find the data table that we utilize to create visualizations. </p>
+
+</div>
+</div>
+<button type="button"class="btn btn-primary">SERVICES</button>
+</div>
+</section>
+
+<!--  About Us-->
+<section id="about-us">
+  <div class="container">
+    <h1 class="title text-center"> PROJECT OVERVIEW </h1>
+    <div class="row">
+    <div class="col-md-6 about-us">
+      <p class="about-title">Project Steps</p>
+        <ul>
+          <li> Get the data of species for each national park across United States. </li>
+          <li> Clean the data. </li>
+          <li> Visualize the number of species for each park, categorized by the type. </li>
+          <li> Create a Leaflet Heatmap that shows the areas that needs to be seen (Rare Species) and to
+            be protected (Endangered species). </li>
+        </ul>
+  </div>
+    <div class="col-md-6 about-us">
+      <img src="images/wild.png" class="img-fluid">
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Team members -->
+<section id="team-members">
+<div class="container">
+    <h1 class="title text-center"> TEAM MEMBERS </h1>
+<div class="row offset-1">
+  <div class="col-md-4 team-members">
+<p>24 years old, from Deanza College transfered to
+  Palo Alto Uni for Phsycology. Cook at Google, now a data scientist. </p>
+<img src="images/Justen.PNG">
+<p class="member-title"><b>Justen Torres </b><br> Data Cleaning - Database Connection - Heroku</p>
+</div>
+<div class="col-md-4 team-members">
+<p>IT grad from SF State University, Customer support specialist at Wix.com, data analytics Bootcamp in UC Berkeley  </p>
+<img src="images/david.PNG">
+<p class="member-title"><b> David Rodas </b><br> Data Manipulation - Chart Visuaizations</p>
+</div>
+<div class="col-md-4 team-members">
+<p>23 years old, civil engineer from University at Buffalo, working as data analyst in an environmental engineering company.  </p>
+<img src="images/bora.PNG">
+<p class="member-title"><b> Bora Cobanoglu </b><br> Data gathering - Web Design and Mapping</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Charts section -->
+<section id="charts">
+<div class="container text-center">
+  <p> Charts of Species across U.S National Parks </p>
+ <div class="chart2">
+
+</div>
+</div>
+</section>
+<!-- <section id="charts2">
+<div class="container text-center">
+ <div class="chart1">
+
+</div>
+</div> -->
+<!-- <div class="chart1">
+
+</div> -->
+<!-- <div class="chart2">
+
+</div>
+<div class="chart3">
+
+</div> -->
+<!-- </div> -->
+<section id="maps">
+<div class="container text-center">
+  <p> Map of rare and endangered species </p>
+                  <div id="map-id"></div>
+</div>
+</section>
+
+<!-- smooth scroll -->
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+<script type="text/javascript" src="david/app.js"></script>
+<script type="text/javascript" src="david/app1.js"></script>
+<script type="text/javascript" src="david/app2.js"></script>
+<script type="text/javascript" src="david/app3.js"></script>
+<script type="text/javascript" src="bc/config.js"></script>
+<script type="text/javascript" src="bc/leaflet-heat.js"></script>
+<script type="text/javascript" src="bc/mapping.js"></script>
+</body>
 </html>

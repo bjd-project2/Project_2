@@ -1,0 +1,57 @@
+park_id,park_name,Algae,Amphibian,Bird,Crab/Lobster/Shrimp,Fish,Fungi,Insect,Invertebrate,Mammal,Nonvascular Plant,Reptile,Slug/Snail,Spider_Scorpion,Vascular Plant
+1,Acadia National Park,0,15,364,0,38,0,0,0,55,0,11,0,0,1226
+2,Arches National Park,0,8,205,0,11,0,0,0,59,0,20,0,0,745
+3,Badlands National Park,0,10,239,0,24,173,239,1,64,0,13,0,1,625
+4,Big Bend National Park,0,13,415,0,53,0,0,0,89,48,62,0,0,1589
+5,Biscayne National Park,0,8,233,0,818,0,11,34,28,0,40,0,0,554
+6,Black Canyon of the Gunnison National Park,0,2,175,0,16,0,0,0,67,0,11,0,0,835
+7,Bryce Canyon National Park,0,4,217,0,1,0,0,0,76,0,13,0,0,975
+8,Canyonlands National Park,0,7,220,0,33,0,0,0,76,0,22,0,0,865
+9,Capitol Reef National Park,0,6,248,0,15,0,0,0,73,0,21,0,0,1203
+10,Carlsbad Caverns National Park,0,15,367,0,5,0,0,0,92,0,62,0,0,995
+11,Channel Islands National Park,61,4,357,11,273,0,2,196,44,68,11,33,1,824
+12,Congaree National Park,74,43,200,6,65,279,617,15,39,7,50,21,21,884
+13,Crater Lake National Park,218,20,252,40,13,192,994,68,96,193,20,9,17,1628
+14,Cuyahoga Valley National Park,0,24,246,8,85,0,227,25,47,0,23,15,2,1239
+15,Death Valley National Park,60,71,531,38,9,123,903,18,212,22,90,72,32,2258
+16,Denali National Park and Preserve,0,1,179,0,14,29,51,3,43,159,0,0,0,841
+17,Dry Tortugas National Park,0,0,283,0,281,0,0,42,6,0,5,0,0,231
+18,Everglades National Park,0,17,370,0,426,0,0,0,42,0,61,0,0,1168
+19,Gates Of The Arctic National Park and Preserve,0,1,134,0,17,474,0,0,39,0,0,0,0,688
+20,Glacier Bay National Park and Preserve,64,5,258,96,359,2,35,117,58,98,3,37,3,822
+21,Glacier National Park,2,6,277,6,27,276,197,2,69,404,4,20,0,1266
+22,Grand Canyon National Park,0,15,456,0,29,0,57,1,106,0,76,2,142,1738
+23,Grand Teton National Park,1,7,266,1,21,28,154,5,74,0,5,4,1,1463
+24,Great Basin National Park,0,22,330,6,21,15,456,29,103,16,58,30,18,1549
+25,Great Sand Dunes National Park and Preserve,0,6,240,0,6,0,1,0,68,1,8,0,0,622
+26,Great Smoky Mountains National Park,0,61,272,10,107,632,2414,84,94,528,51,92,104,2174
+27,Guadalupe Mountains National Park,0,12,272,5,3,66,115,7,76,5,56,58,2,1069
+28,Haleakala National Park,0,3,44,18,6,66,1061,37,15,227,10,47,46,1000
+29,Hawaii Volcanoes National Park,0,4,78,56,4,7,1429,173,15,135,13,71,101,1212
+30,Hot Springs National Park,24,27,387,9,90,0,15,22,52,18,52,2,0,1252
+31,Isle Royale National Park,0,13,261,14,63,0,0,21,26,1,5,0,0,993
+32,Joshua Tree National Park,5,5,301,0,1,38,342,10,67,6,52,0,153,1314
+33,Katmai National Park and Preserve,0,1,222,4,44,105,7,29,54,20,0,7,0,732
+34,Kenai Fjords National Park,0,1,235,0,42,2,3,42,55,0,0,4,0,673
+35,Kobuk Valley National Park,0,1,125,0,26,333,0,0,38,26,0,0,0,476
+36,Lake Clark National Park and Preserve,0,1,193,1,55,220,3,6,50,281,0,0,0,1197
+37,Lassen Volcanic National Park,2,17,245,15,20,51,95,18,100,160,22,6,0,1046
+38,Mammoth Cave National Park,0,33,210,1,122,0,270,54,56,1,42,0,2,1708
+39,Mesa Verde National Park,0,8,237,0,0,0,0,0,86,0,21,0,0,891
+40,Mount Rainier National Park,0,16,187,0,23,31,47,0,69,357,5,0,0,1008
+41,North Cascades National Park,0,12,226,0,33,539,559,0,79,385,10,0,42,1478
+42,Olympic National Park,0,16,310,0,97,0,87,0,80,0,6,0,0,1352
+43,Petrified Forest National Park,0,8,244,0,0,1,0,0,62,1,21,0,0,516
+44,Pinnacles National Park,0,10,170,8,6,27,323,31,60,0,29,11,10,731
+45,Redwood National Park,111,33,501,122,247,1363,744,334,154,251,39,147,7,2257
+46,Rocky Mountain National Park,150,5,277,39,12,306,676,48,74,416,3,10,22,1114
+47,Saguaro National Park,0,10,246,1,0,2,0,0,102,0,62,0,0,1411
+48,Sequoia and Kings Canyon National Parks,0,13,220,0,19,0,0,0,89,0,24,0,0,1630
+49,Shenandoah National Park,0,40,268,3,41,765,318,2,63,350,38,2,4,2761
+50,Theodore Roosevelt National Park,0,8,223,1,32,1,73,3,66,61,13,2,2,680
+51,Voyageurs National Park,0,15,238,0,58,3,33,7,63,11,6,0,0,1019
+52,Wind Cave National Park,0,7,235,0,8,43,105,0,89,0,12,25,0,871
+53,Wrangell - St Elias National Park and Preserve,0,2,211,0,93,0,58,4,62,7,1,1,0,1357
+54,Yellowstone National Park,204,9,330,63,19,11,1628,78,78,15,9,59,43,1420
+55,Yosemite National Park,0,15,270,0,10,0,0,0,88,0,22,0,0,1683
+56,Zion National Park,0,7,301,0,15,0,0,0,80,0,30,0,0,1363
